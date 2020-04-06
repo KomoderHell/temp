@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemmenu"
+        android:title="Items"
+        android:icon="@drawable/item">
+    </item>
+<!--    <item-->
+<!--        android:id="@+id/ongoingmenu"-->
+<!--        android:title="Ongoing"-->
+<!--        android:icon="@drawable/ongoing">-->
+<!--    </item>-->
+    <item
+        android:id="@+id/pendingmenu"
+        android:title="New"
+        android:icon="@drawable/pending">
+    </item>
+    <item
+        android:id="@+id/historymenu"
+        android:title="History"
+        android:icon="@drawable/history">
+    </item>
+</menu>
