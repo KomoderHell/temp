@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Profile"
+            android:icon="@drawable/ic_person"
+            android:title="Profile"/>
+        <item
+            android:id="@+id/OrderHistory"
+            android:icon="@drawable/ic_history"
+            android:title="Order History" />
+        <item
+            android:id="@+id/Earning"
+            android:title="Total Earning" />
+        <item
+            android:id="@+id/Notices"
+            android:title="Notices" />
+        <item
+            android:id="@+id/Logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

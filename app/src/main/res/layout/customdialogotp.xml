@@ -12,26 +12,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:fontFamily="@font/amaranth"
         android:text="Enter OTP"
         android:textAlignment="center"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
 
-    <com.mukesh.OtpView
+    <EditText
         android:id="@+id/otp_view"
         android:layout_centerHorizontal="true"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:inputType="number"
         android:textColor="@android:color/white"
         android:layout_below="@+id/dialogll1"
-        app:itemCount="6"
-        style="@style/AppTheme"
-        app:lineColor="#000"
-        app:viewType="line"
-        />
+        android:layout_marginHorizontal="48dp"
+        style="@style/AppTheme"/>
 
     <Button
         android:layout_below="@+id/otp_view"
@@ -41,8 +38,6 @@
         android:id="@+id/otpget"
         android:text="Check OTP"
         android:layout_marginHorizontal="40dp"
-        android:fontFamily="@font/amaranth"
-        android:textStyle="bold"
-        android:theme="@style/PrimaryButton"/>
+        android:textStyle="bold"/>
 
 </RelativeLayout>
